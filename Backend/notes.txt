@@ -1,0 +1,9 @@
+install express
+install nodemon to automatically refresh all the
+changes 
+npm i nodemon -D  here D means dev dependency
+npx create-react-app .
+here . means to create a react app in the exisiting folder
+
+client>package.json>add "proxy":"http://localhost:5000",
+putting this line so we can make relative api requests and also to avoid any issues run into with cross-version
